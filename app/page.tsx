@@ -239,33 +239,31 @@ export default function Home() {
               {"프론트엔드 개발 리더 \n UI/UX 디자인 설계"}
             </p>
           </div>
-          <hr />
+          <hr className="w-full max-w-xl my-6 border-t-2 border-gray-300" />
           <p className="mb-2 tracking-[-.01em] font-bold">
-            점검중 - 전자기기 중고거래 서비스
+            Barrier Free - 시각장애인을 위한 금융 앱
           </p>
           <div className="w-full max-w-xl flex flex-row items-center gap-2 mb-2 justify-between">
-            <p className="mb-0 tracking-[-.01em]">기 간</p>
-            <p className="mb-0 tracking-[-.01em] text-center">
-              2025.04.14 - 2025.05.22
+            <p className="mb-0 tracking-[-.01em] w-24">기 간</p>
+            <p className="mb-0 tracking-[-.01em] text-center flex-1">
+              2025.02.24 - 2025.04.11
             </p>
           </div>
           <div className="w-full max-w-xl flex flex-row items-center gap-2 mb-2 justify-between">
             <p className="mb-0 tracking-[-.01em]">참여 인원</p>
-            <p className="mb-0 tracking-[-.01em] text-center">6 명</p>
+            <p className="mb-0 tracking-[-.01em] text-center flex-1">6 명</p>
           </div>
           <div className="w-full max-w-xl flex flex-row items-center gap-2 mb-2 justify-between">
-            <p className="mb-0 tracking-[-.01em]">개 요</p>
-            <p className="mb-0 tracking-[-.01em] text-center">
-              전자기기 중고거래 판매자 및 구매자들의 편리성과 신뢰성을 확보하기
-              위해, AI 기반 흠집 탐지 및 판매 게시글 자동 생성 기능을 추가한
-              중고거래 서비스
+            <p className="mb-0 tracking-[-.01em] w-24">개 요</p>
+            <p className="mb-0 tracking-[-.01em] text-center flex-1">
+              시각 장애인 및 저시력자를 위한 간편 뱅킹 서비스
             </p>
           </div>
           <div className="w-full max-w-xl flex flex-row items-center gap-2 mb-2 justify-between">
             <p className="mb-0 tracking-[-.01em]">기술 환경</p>
             <p className="mb-0 tracking-[-.01em] text-center flex-1 whitespace-pre-line">
               {
-                "FE - TypeScript, React, PWA, Node.js, NPM \n BE - JAVA, Python, Spring Boot, Spring JPA"
+                "FE – TypeScript, ReactNative, React, Node.js, NPM \n BE – JAVA, Python, Spring Boot, Spring JPA"
               }
             </p>
           </div>
@@ -273,6 +271,39 @@ export default function Home() {
             <p className="mb-0 tracking-[-.01em]">담당 역할</p>
             <p className="mb-0 tracking-[-.01em] text-center flex-1 whitespace-pre-line">
               {"프론트엔드 개발 리더 \n UI/UX 디자인 설계"}
+            </p>
+          </div>
+          <hr className="w-full max-w-xl my-6 border-t-2 border-gray-300" />
+          <p className="mb-2 tracking-[-.01em] font-bold">
+            NAVI - 자격증 정보 제공 서비스
+          </p>
+          <div className="w-full max-w-xl flex flex-row items-center gap-2 mb-2 justify-between">
+            <p className="mb-0 tracking-[-.01em] w-24">기 간</p>
+            <p className="mb-0 tracking-[-.01em] text-center flex-1">
+              2025.01.13 - 2025.02.21
+            </p>
+          </div>
+          <div className="w-full max-w-xl flex flex-row items-center gap-2 mb-2 justify-between">
+            <p className="mb-0 tracking-[-.01em]">참여 인원</p>
+            <p className="mb-0 tracking-[-.01em] text-center flex-1">6 명</p>
+          </div>
+          <div className="w-full max-w-xl flex flex-row items-center gap-2 mb-2 justify-between">
+            <p className="mb-0 tracking-[-.01em] w-24">개 요</p>
+            <p className="mb-0 tracking-[-.01em] text-center flex-1">
+              취업 준비를 시작한 사회 초년생들에게 필요한 자격증 정보를 제공하고
+              사용자의 자격증 합격률과 실시간 화상 공부방을 제공하는 서비스
+            </p>
+          </div>
+          <div className="w-full max-w-xl flex flex-row items-center gap-2 mb-2 justify-between">
+            <p className="mb-0 tracking-[-.01em]">기술 환경</p>
+            <p className="mb-0 tracking-[-.01em] text-center flex-1 whitespace-pre-line">
+              {"FE – TypeScript, Vue.js, NPM \n BE – JAVA, Python, Spring Boot"}
+            </p>
+          </div>
+          <div className="w-full max-w-xl flex flex-row items-center gap-2 mb-2 justify-between">
+            <p className="mb-0 tracking-[-.01em]">담당 역할</p>
+            <p className="mb-0 tracking-[-.01em] text-center flex-1 whitespace-pre-line">
+              {"프론트엔드 개발 \n UI/UX 디자인 설계"}
             </p>
           </div>
         </section>
