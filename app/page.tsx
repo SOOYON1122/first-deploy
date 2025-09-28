@@ -12,6 +12,12 @@ export default function Home() {
           About
         </a>
         <a
+          href="#contact"
+          className="rounded-full px-4 py-2 bg-foreground text-background hover:bg-[#383838] dark:hover:bg-[#ccc] transition-colors"
+        >
+          Contact
+        </a>
+        <a
           href="#greeting"
           className="rounded-full px-4 py-2 bg-foreground text-background hover:bg-[#383838] dark:hover:bg-[#ccc] transition-colors"
         >
@@ -33,7 +39,7 @@ export default function Home() {
 
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
         {/* profile 섹션 */}
-        <div className="flex flex-row items-center gap-6 w-full mb-8">
+        <div className="flex flex-row justify-center items-center gap-6 w-full mb-8">
           <Image
             className="dark:invert"
             src="/prof.svg"
@@ -56,29 +62,36 @@ export default function Home() {
           <h2 className="text-xl font-bold mb-2">About</h2>
           <p className="mb-2 tracking-[-.01em]">박 수 연</p>
           <p className="mb-2 tracking-[-.01em]">PARK SOOYON</p>
+        </section>
+
+        {/* Contact 섹션 */}
+        <section
+          id="contact"
+          className="w-full flex flex-col items-center mb-8"
+        >
           <h2 className="text-xl font-bold mb-2">Contact</h2>
-          <div>
-            <p className="mb-2 tracking-[-.01em]">EMAIL</p>
+          <div className="flex flex-row items-center gap-2 mb-2">
+            <p className="mb-0 tracking-[-.01em]">EMAIL</p>
             <p
-              className="mb-2 tracking-[-.01em] text-center select-all cursor-pointer"
+              className="mb-0 tracking-[-.01em] text-center select-all cursor-pointer"
               title="클릭하면 복사할 수 있습니다."
             >
               pksuyon1122@naver.com
             </p>
           </div>
-          <div>
-            <p className="mb-2 tracking-[-.01em]">PHONE</p>
+          <div className="flex flex-row items-center gap-2 mb-2">
+            <p className="mb-0 tracking-[-.01em]">PHONE</p>
             <p
-              className="mb-2 tracking-[-.01em] text-center select-all cursor-pointer"
+              className="mb-0 tracking-[-.01em] text-center select-all cursor-pointer"
               title="클릭하면 복사할 수 있습니다."
             >
               010-8596-8726
             </p>
           </div>
-          <div>
-            <p className="mb-2 tracking-[-.01em]">GITHUB</p>
+          <div className="flex flex-row items-center gap-2 mb-2">
+            <p className="mb-0 tracking-[-.01em]">GITHUB</p>
             <p
-              className="mb-2 tracking-[-.01em] text-center select-all cursor-pointer"
+              className="mb-0 tracking-[-.01em] text-center select-all cursor-pointer"
               title="클릭하면 복사할 수 있습니다."
             >
               https://github.com/SOOYON1122
