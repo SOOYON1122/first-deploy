@@ -7,19 +7,19 @@ export default function Home() {
       <nav className="w-full flex justify-center gap-4 mb-8">
         <a
           href="#about"
-          className="rounded-full px-4 py-2 bg-foreground text-background hover:bg-[#383838] dark:hover:bg-[#f2f2f2] transition-colors"
+          className="rounded-full px-4 py-2 bg-foreground text-background hover:bg-[#ffc7e7] dark:hover:bg-[#f2f2f2] transition-colors"
         >
           About
         </a>
         <a
           href="#contact"
-          className="rounded-full px-4 py-2 bg-foreground text-background hover:bg-[#383838] dark:hover:bg-[#f2f2f2] transition-colors"
+          className="rounded-full px-4 py-2 bg-foreground text-background hover:bg-[#ffc7e7] dark:hover:bg-[#f2f2f2] transition-colors"
         >
           Contact
         </a>
         <a
           href="#greeting"
-          className="rounded-full px-4 py-2 bg-foreground text-background hover:bg-[#383838] dark:hover:bg-[#f2f2f2] transition-colors"
+          className="rounded-full px-4 py-2 bg-foreground text-background hover:bg-[#ffc7e7] dark:hover:bg-[#f2f2f2] transition-colors"
         >
           Greeting
         </a>
@@ -172,7 +172,7 @@ export default function Home() {
               SQLITE
             </span>
           </div>
-          <h3 className="text-lg font-semibold mt-6 mb-2">🛠️ Tools 🛠️</h3>
+          <h3 className="text-xl font-bold mb-2">🛠️ Tools 🛠️</h3>
           <div className="flex flex-wrap justify-center gap-2">
             <span className="bg-red-600 text-white font-bold px-3 py-1 rounded">
               GIT
@@ -203,7 +203,7 @@ export default function Home() {
 
         {/* Projects 섹션 */}
         <section id="deploy" className="w-full flex flex-col items-center mb-8">
-          <h2 className="text-xl font-bold mb-2">Projects</h2>
+          <h2 className="text-xl font-bold mb-2">📝 Projects 📝</h2>
         </section>
       </main>
 
