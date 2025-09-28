@@ -172,7 +172,7 @@ export default function Home() {
               SQLITE
             </span>
           </div>
-          <h3 className="text-xl font-bold mb-2">🛠️ Tools 🛠️</h3>
+          <h3 className="text-xl font-bold mb-2 mt-2">🛠️ Tools 🛠️</h3>
           <div className="flex flex-wrap justify-center gap-2">
             <span className="bg-red-600 text-white font-bold px-3 py-1 rounded">
               GIT
@@ -204,6 +204,41 @@ export default function Home() {
         {/* Projects 섹션 */}
         <section id="deploy" className="w-full flex flex-col items-center mb-8">
           <h2 className="text-xl font-bold mb-2">📝 Projects 📝</h2>
+          <p className="mb-2 tracking-[-.01em] font-bold">
+            점검중 - 전자기기 중고거래 서비스
+          </p>
+          <div className="flex flex-row items-center gap-2 mb-2 w-full max-w-xs justify-between">
+            <p className="mb-0 tracking-[-.01em]">기 간</p>
+            <p className="mb-0 tracking-[-.01em] text-center">
+              2025.04.14 - 2025.05.22
+            </p>
+          </div>
+          <div className="flex flex-row items-center gap-2 mb-2 w-full max-w-xs justify-between">
+            <p className="mb-0 tracking-[-.01em]">참여 인원</p>
+            <p className="mb-0 tracking-[-.01em] text-center">6 명</p>
+          </div>
+          <div className="flex flex-row items-center gap-2 mb-2 w-full max-w-xs justify-between">
+            <p className="mb-0 tracking-[-.01em]">개 요</p>
+            <p className="mb-0 tracking-[-.01em] text-center">
+              전자기기 중고거래 판매자 및 구매자들의 편리성과 신뢰성을 확보하기
+              위해, AI 기반 흠집 탐지 및 판매 게시글 자동 생성 기능을 추가한
+              중고거래 서비스
+            </p>
+          </div>
+          <div className="flex flex-row items-center gap-2 mb-2 w-full max-w-xs justify-between">
+            <p className="mb-0 tracking-[-.01em]">기술 환경</p>
+            <p className="mb-0 tracking-[-.01em] text-center">
+              {
+                "FE - TypeScript, React, PWA, Node.js, NPM \n BE - JAVA, Python, Spring Boot, Spring JPA"
+              }
+            </p>
+          </div>
+          <div className="flex flex-row items-center gap-2 mb-2 w-full max-w-xs justify-between">
+            <p className="mb-0 tracking-[-.01em]">담당 역할</p>
+            <p className="mb-0 tracking-[-.01em] text-center">
+              {"프론트엔드 개발 리더 \n UI/UX 디자인 설계"}
+            </p>
+          </div>
         </section>
       </main>
 
