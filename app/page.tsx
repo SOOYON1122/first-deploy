@@ -24,13 +24,13 @@ export default function Home() {
           Greeting
         </a>
         <a
-          href="#docs"
+          href="#skills"
           className="rounded-full px-4 py-2 border border-[#6471d3] text-[#6471d3] hover:bg-[#6471d3] hover:text-[#f6f6f6] transition-colors"
         >
           Skills
         </a>
         <a
-          href="#deploy"
+          href="#projects"
           className="rounded-full px-4 py-2 border border-[#6471d3] text-[#6471d3] hover:bg-[#6471d3] hover:text-[#f6f6f6] transition-colors"
         >
           Projects
@@ -120,7 +120,7 @@ export default function Home() {
         </section>
 
         {/* Skills 섹션 */}
-        <section id="docs" className="w-full flex flex-col items-center mb-8">
+        <section id="skills" className="w-full flex flex-col items-center mb-8">
           <h2 className="text-xl font-bold mb-2">✨ My Tech Stack ✨</h2>
           <div className="flex flex-wrap justify-center gap-2 mb-4">
             <span className="bg-yellow-400 text-black font-bold px-3 py-1 rounded">
@@ -202,7 +202,10 @@ export default function Home() {
         </section>
 
         {/* Projects 섹션 */}
-        <section id="deploy" className="w-full flex flex-col items-center mb-8">
+        <section
+          id="projects"
+          className="w-full flex flex-col items-center mb-8"
+        >
           <h2 className="text-xl font-bold mb-2">📝 Projects 📝</h2>
           <p className="mb-2 tracking-[-.01em] font-bold">
             점검중 - 전자기기 중고거래 서비스
