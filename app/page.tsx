@@ -7,31 +7,31 @@ export default function Home() {
       <nav className="w-full flex justify-center gap-4 mb-8">
         <a
           href="#about"
-          className="rounded-full px-4 py-2 bg-[#ffc7e7] text-background hover:bg-[#f2f2f2] hover:text-[#ffa5d8] transition-colors"
+          className="rounded-full px-4 py-2 border border-[#6471d3] text-[#6471d3] hover:bg-[#6471d3] hover:text-[#f6f6f6] transition-colors"
         >
           About
         </a>
         <a
           href="#contact"
-          className="rounded-full px-4 py-2 bg-[#ffc7e7] text-background hover:bg-[#f2f2f2] hover:text-[#ffa5d8] transition-colors"
+          className="rounded-full px-4 py-2 border border-[#6471d3] text-[#6471d3] hover:bg-[#6471d3] hover:text-[#f6f6f6] transition-colors"
         >
           Contact
         </a>
         <a
           href="#greeting"
-          className="rounded-full px-4 py-2 bg-[#ffc7e7] text-background hover:bg-[#f2f2f2] hover:text-[#ffa5d8] transition-colors"
+          className="rounded-full px-4 py-2 border border-[#6471d3] text-[#6471d3] hover:bg-[#6471d3] hover:text-[#f6f6f6] transition-colors"
         >
           Greeting
         </a>
         <a
           href="#docs"
-          className="rounded-full px-4 py-2 bg-[#ffc7e7] text-background hover:bg-[#f2f2f2] hover:text-[#ffa5d8] transition-colors"
+          className="rounded-full px-4 py-2 border border-[#6471d3] text-[#6471d3] hover:bg-[#6471d3] hover:text-[#f6f6f6] transition-colors"
         >
           Skills
         </a>
         <a
           href="#deploy"
-          className="rounded-full px-4 py-2 bg-[#ffc7e7] text-background hover:bg-[#f2f2f2] hover:text-[#ffa5d8] transition-colors"
+          className="rounded-full px-4 py-2 border border-[#6471d3] text-[#6471d3] hover:bg-[#6471d3] hover:text-[#f6f6f6] transition-colors"
         >
           Projects
         </a>
