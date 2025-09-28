@@ -18,16 +18,16 @@ export default function Home() {
           Greeting
         </a>
         <a
-          href="#deploy"
-          className="rounded-full px-4 py-2 bg-foreground text-background hover:bg-[#383838] dark:hover:bg-[#ccc] transition-colors"
-        >
-          Deploy
-        </a>
-        <a
           href="#docs"
           className="rounded-full px-4 py-2 bg-foreground text-background hover:bg-[#383838] dark:hover:bg-[#ccc] transition-colors"
         >
-          Docs
+          Skills
+        </a>
+        <a
+          href="#deploy"
+          className="rounded-full px-4 py-2 bg-foreground text-background hover:bg-[#383838] dark:hover:bg-[#ccc] transition-colors"
+        >
+          Projects
         </a>
       </nav>
 
@@ -75,14 +75,14 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Deploy 섹션 */}
-        <section id="deploy" className="w-full flex flex-col items-center mb-8">
-          <h2 className="text-xl font-bold mb-2">Deploy</h2>
+        {/* Skills 섹션 */}
+        <section id="docs" className="w-full flex flex-col items-center mb-8">
+          <h2 className="text-xl font-bold mb-2">Skills</h2>
         </section>
 
-        {/* Docs 섹션 */}
-        <section id="docs" className="w-full flex flex-col items-center mb-8">
-          <h2 className="text-xl font-bold mb-2">Docs</h2>
+        {/* Projects 섹션 */}
+        <section id="deploy" className="w-full flex flex-col items-center mb-8">
+          <h2 className="text-xl font-bold mb-2">Projects</h2>
         </section>
       </main>
 
