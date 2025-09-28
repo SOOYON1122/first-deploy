@@ -32,7 +32,6 @@ export default function Home() {
       </nav>
 
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        {/* About 섹션 */}
         <div className="flex flex-row items-center gap-6 w-full mb-8 justify-between">
           <Image
             className="dark:invert"
@@ -42,22 +41,28 @@ export default function Home() {
             height={38}
             priority
           />
-          <section
-            id="about"
-            className="w-full flex flex-col items-center mb-8"
-          >
-            <h2 className="text-xl font-bold mb-2">About</h2>
-            <p>박 수 연</p>
-            <p>PARK SOOYON</p>
-          </section>
+          <Image
+            className="dark:invert"
+            src="/selfProfile.jpg"
+            alt="profile"
+            width={180}
+            height={38}
+            priority
+          />
         </div>
+        {/* About 섹션 */}
+        <section id="about" className="w-full flex flex-col items-center mb-8">
+          <h2 className="text-xl font-bold mb-2">About</h2>
+          <p>박 수 연</p>
+          <p>PARK SOOYON</p>
+        </section>
 
         {/* Greeting 섹션 */}
         <section
           id="greeting"
           className="w-full flex flex-col items-center mb-8"
         >
-          <h2 className="text-xl font-bold mb-2">Greeting</h2>
+          <h2 className="text-xl font-bold mb-2">👋 Greeting 👋</h2>
           <div className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left items-center">
             <p className="mb-2 tracking-[-.01em]">
               안녕하세요, FrontEnd 개발자 박수연입니다!
