@@ -207,17 +207,17 @@ export default function Home() {
           <p className="mb-2 tracking-[-.01em] font-bold">
             점검중 - 전자기기 중고거래 서비스
           </p>
-          <div className="flex flex-row items-center gap-2 mb-2 w-full max-w-xs justify-between">
+          <div className="flex flex-row items-center gap-2 mb-2 justify-between">
             <p className="mb-0 tracking-[-.01em]">기 간</p>
             <p className="mb-0 tracking-[-.01em] text-center">
               2025.04.14 - 2025.05.22
             </p>
           </div>
-          <div className="flex flex-row items-center gap-2 mb-2 w-full max-w-xs justify-between">
+          <div className="flex flex-row items-center gap-2 mb-2 justify-between">
             <p className="mb-0 tracking-[-.01em]">참여 인원</p>
             <p className="mb-0 tracking-[-.01em] text-center">6 명</p>
           </div>
-          <div className="flex flex-row items-center gap-2 mb-2 w-full max-w-xs justify-between">
+          <div className="flex flex-row items-center gap-2 mb-2 justify-between">
             <p className="mb-0 tracking-[-.01em]">개 요</p>
             <p className="mb-0 tracking-[-.01em] text-center">
               전자기기 중고거래 판매자 및 구매자들의 편리성과 신뢰성을 확보하기
@@ -225,7 +225,7 @@ export default function Home() {
               중고거래 서비스
             </p>
           </div>
-          <div className="flex flex-row items-center gap-2 mb-2 w-full max-w-xs justify-between">
+          <div className="flex flex-row items-center gap-2 mb-2 justify-between">
             <p className="mb-0 tracking-[-.01em]">기술 환경</p>
             <p className="mb-0 tracking-[-.01em] text-center">
               {
@@ -233,7 +233,7 @@ export default function Home() {
               }
             </p>
           </div>
-          <div className="flex flex-row items-center gap-2 mb-2 w-full max-w-xs justify-between">
+          <div className="flex flex-row items-center gap-2 mb-2 justify-between">
             <p className="mb-0 tracking-[-.01em]">담당 역할</p>
             <p className="mb-0 tracking-[-.01em] text-center">
               {"프론트엔드 개발 리더 \n UI/UX 디자인 설계"}
