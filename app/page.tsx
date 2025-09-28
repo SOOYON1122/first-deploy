@@ -33,7 +33,7 @@ export default function Home() {
 
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
         {/* About 섹션 */}
-        <div className="flex flex-row items-center gap-6 justify-between">
+        <div className="flex flex-row items-center gap-6 w-full mb-8">
           <Image
             className="dark:invert"
             src="/prof.svg"
@@ -42,10 +42,7 @@ export default function Home() {
             height={38}
             priority
           />
-          <section
-            id="about"
-            className="w-full flex flex-col items-center mb-8"
-          >
+          <section id="about" className="w-full flex flex-col items-start mb-8">
             <h2 className="text-xl font-bold mb-2">About</h2>
             <p>박 수 연</p>
             <p>PARK SOOYON</p>
@@ -59,9 +56,6 @@ export default function Home() {
         >
           <h2 className="text-xl font-bold mb-2">Greeting</h2>
           <div className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
-            <p className="mb-2 tracking-[-.01em]">Hi, I'm SOOYON!</p>
-            <p className="tracking-[-.01em]">Nice to meet you!</p>
-            <hr />
             <p className="mb-2 tracking-[-.01em]">
               안녕하세요, FrontEnd 개발자 박수연입니다!
             </p>
