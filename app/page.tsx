@@ -209,17 +209,17 @@ export default function Home() {
           </p>
           <div className="w-full max-w-xl flex flex-row items-center gap-2 mb-2 justify-between">
             <p className="mb-0 tracking-[-.01em] w-24">기 간</p>
-            <p className="mb-0 tracking-[-.01em] text-center">
+            <p className="mb-0 tracking-[-.01em] text-center flex-1">
               2025.04.14 - 2025.05.22
             </p>
           </div>
           <div className="w-full max-w-xl flex flex-row items-center gap-2 mb-2 justify-between">
             <p className="mb-0 tracking-[-.01em]">참여 인원</p>
-            <p className="mb-0 tracking-[-.01em] text-center">6 명</p>
+            <p className="mb-0 tracking-[-.01em] text-center flex-1">6 명</p>
           </div>
           <div className="w-full max-w-xl flex flex-row items-center gap-2 mb-2 justify-between">
             <p className="mb-0 tracking-[-.01em] w-24">개 요</p>
-            <p className="mb-0 tracking-[-.01em] text-center">
+            <p className="mb-0 tracking-[-.01em] text-center flex-1">
               전자기기 중고거래 판매자 및 구매자들의 편리성과 신뢰성을 확보하기
               위해, AI 기반 흠집 탐지 및 판매 게시글 자동 생성 기능을 추가한
               중고거래 서비스
@@ -239,7 +239,7 @@ export default function Home() {
               {"프론트엔드 개발 리더 \n UI/UX 디자인 설계"}
             </p>
           </div>
-          <hr className="mb-2" />
+          <hr />
           <p className="mb-2 tracking-[-.01em] font-bold">
             점검중 - 전자기기 중고거래 서비스
           </p>
