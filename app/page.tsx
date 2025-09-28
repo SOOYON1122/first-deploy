@@ -70,7 +70,7 @@ export default function Home() {
           className="w-full flex flex-col items-center mb-8"
         >
           <h2 className="text-xl font-bold mb-2">Contact</h2>
-          <div className="flex flex-row items-center gap-2 mb-2">
+          <div className="flex flex-row items-center gap-2 mb-2 w-full max-w-xs">
             <p className="mb-0 tracking-[-.01em]">EMAIL</p>
             <p
               className="mb-0 tracking-[-.01em] text-center select-all cursor-pointer"
@@ -79,7 +79,7 @@ export default function Home() {
               pksuyon1122@naver.com
             </p>
           </div>
-          <div className="flex flex-row items-center gap-2 mb-2">
+          <div className="flex flex-row items-center gap-2 mb-2 w-full max-w-xs">
             <p className="mb-0 tracking-[-.01em]">PHONE</p>
             <p
               className="mb-0 tracking-[-.01em] text-center select-all cursor-pointer"
@@ -88,7 +88,7 @@ export default function Home() {
               010-8596-8726
             </p>
           </div>
-          <div className="flex flex-row items-center gap-2 mb-2">
+          <div className="flex flex-row items-center gap-2 mb-2 w-full max-w-xs">
             <p className="mb-0 tracking-[-.01em]">GITHUB</p>
             <p
               className="mb-0 tracking-[-.01em] text-center select-all cursor-pointer"
