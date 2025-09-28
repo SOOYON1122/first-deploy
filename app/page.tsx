@@ -33,7 +33,7 @@ export default function Home() {
 
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
         {/* About 섹션 */}
-        <div className="flex flex-row items-center gap-6 w-full mb-8">
+        <div className="flex flex-row items-center gap-6 w-full mb-8 justify-between">
           <Image
             className="dark:invert"
             src="/prof.svg"
@@ -42,7 +42,10 @@ export default function Home() {
             height={38}
             priority
           />
-          <section id="about" className="w-full flex flex-col items-start mb-8">
+          <section
+            id="about"
+            className="w-full flex flex-col items-center mb-8"
+          >
             <h2 className="text-xl font-bold mb-2">About</h2>
             <p>박 수 연</p>
             <p>PARK SOOYON</p>
@@ -55,7 +58,7 @@ export default function Home() {
           className="w-full flex flex-col items-center mb-8"
         >
           <h2 className="text-xl font-bold mb-2">Greeting</h2>
-          <div className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
+          <div className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left items-center">
             <p className="mb-2 tracking-[-.01em]">
               안녕하세요, FrontEnd 개발자 박수연입니다!
             </p>
@@ -71,7 +74,84 @@ export default function Home() {
 
         {/* Skills 섹션 */}
         <section id="docs" className="w-full flex flex-col items-center mb-8">
-          <h2 className="text-xl font-bold mb-2">Skills</h2>
+          <h2 className="text-xl font-bold mb-2">✨ My Tech Stack ✨</h2>
+          <div className="flex flex-wrap justify-center gap-2 mb-4">
+            <span className="bg-yellow-400 text-black font-bold px-3 py-1 rounded">
+              JAVASCRIPT
+            </span>
+            <span className="bg-blue-400 text-white font-bold px-3 py-1 rounded">
+              TYPESCRIPT
+            </span>
+          </div>
+          <div className="flex flex-wrap justify-center gap-2 mb-4">
+            <span className="bg-[#222] text-white font-bold px-3 py-1 rounded">
+              REACT
+            </span>
+            <span className="bg-[#222] text-white font-bold px-3 py-1 rounded">
+              REACT NATIVE
+            </span>
+            <span className="bg-green-500 text-white font-bold px-3 py-1 rounded">
+              VUEJS
+            </span>
+            <span className="bg-cyan-400 text-white font-bold px-3 py-1 rounded">
+              TAILWINDCSS
+            </span>
+            <span className="bg-blue-300 text-white font-bold px-3 py-1 rounded">
+              CSS3
+            </span>
+            <span className="bg-orange-500 text-white font-bold px-3 py-1 rounded">
+              HTML5
+            </span>
+          </div>
+          <div className="flex flex-wrap justify-center gap-2 mb-4">
+            <span className="bg-blue-500 text-white font-bold px-3 py-1 rounded">
+              PYTHON
+            </span>
+            <span className="bg-orange-400 text-white font-bold px-3 py-1 rounded">
+              JAVA
+            </span>
+          </div>
+          <div className="flex flex-wrap justify-center gap-2 mb-4">
+            <span className="bg-green-400 text-white font-bold px-3 py-1 rounded">
+              SPRING
+            </span>
+            <span className="bg-green-900 text-white font-bold px-3 py-1 rounded">
+              DJANGO
+            </span>
+            <span className="bg-blue-700 text-white font-bold px-3 py-1 rounded">
+              MYSQL
+            </span>
+            <span className="bg-slate-500 text-white font-bold px-3 py-1 rounded">
+              SQLITE
+            </span>
+          </div>
+          <h3 className="text-lg font-semibold mt-6 mb-2">🛠️ Tools 🛠️</h3>
+          <div className="flex flex-wrap justify-center gap-2">
+            <span className="bg-red-600 text-white font-bold px-3 py-1 rounded">
+              GIT
+            </span>
+            <span className="bg-black text-white font-bold px-3 py-1 rounded">
+              GITHUB
+            </span>
+            <span className="bg-black text-white font-bold px-3 py-1 rounded">
+              GITLAB
+            </span>
+            <span className="bg-yellow-400 text-black font-bold px-3 py-1 rounded">
+              NOTION
+            </span>
+            <span className="bg-blue-700 text-white font-bold px-3 py-1 rounded">
+              VISUAL STUDIO CODE
+            </span>
+            <span className="bg-blue-900 text-white font-bold px-3 py-1 rounded">
+              ANDROID STUDIO
+            </span>
+            <span className="bg-pink-500 text-white font-bold px-3 py-1 rounded">
+              FIGMA
+            </span>
+            <span className="bg-blue-600 text-white font-bold px-3 py-1 rounded">
+              JIRA
+            </span>
+          </div>
         </section>
 
         {/* Projects 섹션 */}
