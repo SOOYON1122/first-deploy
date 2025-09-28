@@ -7,19 +7,19 @@ export default function Home() {
       <nav className="w-full flex justify-center gap-4 mb-8">
         <a
           href="#about"
-          className="rounded-full px-4 py-2 bg-foreground text-background hover:bg-[#383838] dark:hover:bg-[#ccc] transition-colors"
+          className="rounded-full px-4 py-2 bg-foreground text-background hover:bg-[#383838] dark:hover:bg-[#f2f2f2] transition-colors"
         >
           About
         </a>
         <a
           href="#contact"
-          className="rounded-full px-4 py-2 bg-foreground text-background hover:bg-[#383838] dark:hover:bg-[#ccc] transition-colors"
+          className="rounded-full px-4 py-2 bg-foreground text-background hover:bg-[#383838] dark:hover:bg-[#f2f2f2] transition-colors"
         >
           Contact
         </a>
         <a
           href="#greeting"
-          className="rounded-full px-4 py-2 bg-foreground text-background hover:bg-[#383838] dark:hover:bg-[#ccc] transition-colors"
+          className="rounded-full px-4 py-2 bg-foreground text-background hover:bg-[#383838] dark:hover:bg-[#f2f2f2] transition-colors"
         >
           Greeting
         </a>
@@ -90,12 +90,12 @@ export default function Home() {
           </div>
           <div className="flex flex-row items-center gap-2 mb-2 w-full max-w-xs justify-between">
             <p className="mb-0 tracking-[-.01em]">GITHUB</p>
-            <p
+            <a
               className="mb-0 tracking-[-.01em] text-center select-all cursor-pointer"
               title="클릭하면 복사할 수 있습니다."
             >
               https://github.com/SOOYON1122
-            </p>
+            </a>
           </div>
         </section>
 
