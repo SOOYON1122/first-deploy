@@ -33,7 +33,7 @@ export default function Home() {
 
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
         {/* About 섹션 */}
-        <div className="flex flex-row items-center gap-6">
+        <div className="flex flex-row items-center gap-6 justify-between">
           <Image
             className="dark:invert"
             src="/prof.svg"
@@ -47,7 +47,8 @@ export default function Home() {
             className="w-full flex flex-col items-center mb-8"
           >
             <h2 className="text-xl font-bold mb-2">About</h2>
-            <p>박 수 연 | PARK SOOYON</p>
+            <p>박 수 연</p>
+            <p>PARK SOOYON</p>
           </section>
         </div>
 
